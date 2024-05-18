@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import InputField from "../components/InputField";
 import Sidebar from "../components/Sidebar";
-
 import EmployeeTable from "../components/EmployeeTable";
+
 const Dashboard = () => {
   const [employees, setEmployees] = useState([]);
   const [showForm, setShowForm] = useState(false);
